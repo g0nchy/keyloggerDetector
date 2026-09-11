@@ -110,7 +110,7 @@ No single signal is proof of anything on its own, it's the **combination** that 
 
 This is an educational project, built to learn WinAPI from the ground up, not a certified security product. In particular:
 
-- It's **static analysis**: it won't catch a keylogger injected as a DLL inside another legitimate process (see [issues](../../issues) if you want to discuss this).
+- It's **static analysis**: it won't catch a keylogger injected as a DLL inside another legitimate process.
 - False positives happen. An unsigned process running from your projects folder isn't, by itself, a keylogger.
 - Without administrator privileges, several system processes can't be fully inspected.
 
